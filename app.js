@@ -47,3 +47,7 @@ app.use((req, res) => {
 
 // START THE SERVER
 // Make your Express server listen on port 5005:
+const port = 5005
+app.listen(port, () => {
+    console.log(`Inicializando servidor ${port}`)
+})
